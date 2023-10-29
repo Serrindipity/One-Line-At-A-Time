@@ -23,10 +23,10 @@ def index() -> rx.Component:
             language="python",
             show_line_numbers=True,
             ),
-            rx.text(State.text, color_scheme="green"),
             rx.input(
             value=State.text,
             on_change=State.set_text,
+            margin_left='100em',
             ),
             spacing="1.5em",
             font_size="2em",
