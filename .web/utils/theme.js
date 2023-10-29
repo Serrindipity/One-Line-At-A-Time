@@ -1,0 +1,1 @@
+export default {"styles": {"global": {"body": {"paddingTop": "5em", "paddingX": ["auto", "2em"]}}}}
